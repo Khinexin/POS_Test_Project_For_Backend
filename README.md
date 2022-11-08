@@ -34,6 +34,8 @@ $ mvn spring-boot:run
 To Test GraphQl query
 go to [http://localhost:8080/graphiql](http://localhost:8080/graphiql) to start executing queries.
 
+![](Screenshots/graphiql.png)
+
 ```
 query { 
 	recordNewSales(
