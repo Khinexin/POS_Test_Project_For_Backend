@@ -34,8 +34,10 @@ $ mvn spring-boot:run
 To Test GraphQl query
 go to [http://localhost:8080/graphiql](http://localhost:8080/graphiql) to start executing queries.
 
+* GraphiQL
 ![](Screenshots/graphiql.png)
 
+## To add new sales
 ```
 query { 
 	recordNewSales(
@@ -47,10 +49,12 @@ query {
 	{final_price, points}
 }
 ```
-
+## To search sales record between date
 ```
 query { 
 	sales(startDateTime:"2022-11-08T00:00:00Z",endDateTime:"2022-11-08T23:00:00Z")
 	{datetime,sales,point} 
 }
 ```
+
+`
