@@ -11,10 +11,11 @@ type DateSalesPoint{
 }
 
 type Query {
- 
-     
-	recordNewSales(price: String, price_modifier: Float, payment_method: String, datetime: String ): OutputPriceAndPoint
     sales(startDateTime: String, endDateTime: String): [DateSalesPoint]
+}
+
+type Mutation {
+	recordNewSales(price: String, price_modifier: Float, payment_method: String, datetime: String ): OutputPriceAndPoint
 }
 
 

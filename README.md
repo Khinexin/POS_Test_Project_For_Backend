@@ -40,7 +40,7 @@ go to [http://localhost:8080/graphiql](http://localhost:8080/graphiql) to start 
 
 ## To add new sales
 ```
-query { 
+mutation { 
 	recordNewSales(
 	price: "200.00",
 	price_modifier: 0.95,
