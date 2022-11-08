@@ -1,0 +1,15 @@
+package com.mytest.pos.model.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class OutputPriceAndPoint {
+	String final_price;
+	float points;
+}

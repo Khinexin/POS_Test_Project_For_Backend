@@ -1,0 +1,25 @@
+type OutputPriceAndPoint{
+	final_price: String
+	points: Int
+}
+
+
+type DateSalesPoint{
+	datetime: String
+	sales: String
+	point: Int
+}
+
+type Query {
+ 
+     
+	recordNewSales(price: String, price_modifier: Float, payment_method: String, datetime: String ): OutputPriceAndPoint
+    sales(startDateTime: String, endDateTime: String): [DateSalesPoint]
+}
+
+
+
+
+
+
+
