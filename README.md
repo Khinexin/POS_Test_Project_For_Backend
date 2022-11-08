@@ -25,6 +25,7 @@ $ mvn spring-boot:run
 - Spring Data JPA with Hibernate
 - Spring for GraphQL
 - MySql
+- lombok
 
 ## Configure MySQL
 - Update the application.properties file in the `src/main/resources` folder with the URL, 'username' and 'password' for your MySQL instance. The table schema for the Sales objects will be created for you in the database.
